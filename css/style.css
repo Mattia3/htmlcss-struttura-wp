@@ -12,7 +12,7 @@
 
 .conteiner {
   width: 920px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header .conteiner {
@@ -27,19 +27,20 @@ header .conteiner {
   margin-top: 20px;
 }
 
-.conteiner aside{
+aside{
   width: 20%;
-  border-top: 10px solid rgba(1,133,255,255);
-  border-bottom: 10px solid rgba(1,133,255,255);
+  background-color: rgba(171,207,231,255);
+  margin-top: 15px;
 }
 
-.conteiner section {
-  width: 60%;
-  border: 10px solid rgba(1,133,255,255);
+section {
+  width: 58%;
+  background-color: rgba(171,207,231,255);
+  margin: 10px 1%;
 }
 
 .background {
- background-color: rgba(171,207,231,255);
+ background-color: rgba(1,133,255,255);
  margin-top: 20px;
 }
 
@@ -52,6 +53,11 @@ footer .conteiner {
 
 .float-main {
   float: left;
-  height: 430px;
-  margin-top: 50px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+.top {
+  background-color: rgba(171,207,231,255);
+  height: 50px;
 }
